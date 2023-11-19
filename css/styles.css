@@ -36,23 +36,21 @@ a  {text-decoration: none;}
 .container {
     width: 1158px;
     margin: 0 auto;
-    padding: 0 15px;
+    padding: 0 15px; }
 
-}
-.header-nav-container {
-    border-bottom: 1px solid #E7E9FC;
+.one-header {
+    border-bottom: 1px solid #e7e9fc;
     background: #FFF;
-    padding-top: 24px;
-    padding-bottom: 24px;
-    display: flex;}
-
-.one-header {border-bottom: 1px solid #e7e9fc;}
+    display: flex;
+    }
+.one-header-container {
+    display: flex;
+    justify-content: space-between;
+}
 
 .header-nav {
     color:#2E2F42;
     display: flex;
-    padding-top: 24px;
-    padding-bottom: 24px;
     align-items: center;
 }
 
@@ -64,9 +62,10 @@ a  {text-decoration: none;}
     letter-spacing: 0.32em;
     display: flex;
     gap: 40px;
+    padding: 24px 0;
     
 }
-.list-nav-one, .list-nav-two, .list-nav-three {
+.list-nav-one {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -205,6 +204,7 @@ border: none;
 background: #FFF;
 padding: 120px 0;
 
+
 }
 
 .visually-hidden {
@@ -239,6 +239,9 @@ padding: 120px 0;
     font-weight: 400;
     line-height: 1.5;
     letter-spacing: 0.02em;
+}
+
+.list-two {
     flex-basis: calc((100% - 72px) / 4);
 }
 .list-two:last-child { margin-right: 0;}
@@ -370,6 +373,8 @@ padding: 120px 0;
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    display: inline-block;
+    margin-bottom: 16px;
     }
 .footer-logo-two {
     color: #F4F4FD;
@@ -382,7 +387,6 @@ padding: 120px 0;
 
 .logo {
    display: inline-block;
-   margin-bottom: 16px;
 }
 
 .text-footer {
