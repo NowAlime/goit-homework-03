@@ -171,14 +171,18 @@ padding: 0 15px;
 .one-section-name {
 color: #ffffff;
 font-size: 56px;
-text-align: center;
-font-weight: 700;
 line-height: 1.07;
 letter-spacing: 0.02em;
 max-width: 496px;
 margin-left: auto;
 margin-right: auto;
 margin-bottom: 48px;
+text-align: center;
+font-weight: 700;
+padding-bottom: 48px;
+text-transform: capitalize;
+
+
 }
 
 .button-one-section {
