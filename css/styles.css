@@ -81,6 +81,7 @@ a  {text-decoration: none;}
 }
 .list-nav-studio {
     color:#2E2F42;
+    padding: 24px 0;
 }
 .list-nav-studio:hover,
 .list-nav-studio:focus {
@@ -97,6 +98,7 @@ a  {text-decoration: none;}
     text-transform: uppercase;
     margin-right: 76px;
     padding: 24px 0;
+
  }
 
 .logo-part-two {
@@ -384,6 +386,8 @@ padding: 120px 0;
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    display: inline-block;
+    margin-bottom: 16px;
     }
 .footer-logo-two {
     color: #F4F4FD;
@@ -401,5 +405,4 @@ padding: 120px 0;
     line-height: 1.5;
     letter-spacing: 0.02em;
     max-width: 264px;
-    margin-top: 16px;
     }
